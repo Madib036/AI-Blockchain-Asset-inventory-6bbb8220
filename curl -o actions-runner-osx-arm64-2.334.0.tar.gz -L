@@ -9,7 +9,7 @@ $ echo "760899b29fd4e942076bcd1160a662bf83c15d9ce8a8cc466763aec7e582b21b  action
 $ tar xzf ./actions-runner-osx-arm64-2.334.0.tar.gz
 Configure
 # Create the runner and start the configuration experience
-$ ./config.sh --url https://github.com/MalesForFemalesLLC22/AI-Blockchain-Asset-inventory-6bbb8220 --token AY7IY6QWOWPYA6EPFULZEFTKDE64G
+$ ./config.sh --url https://github.com/<OWNER>/<REPO> --token <RUNNER_REGISTRATION_TOKEN>
 # Last step, run it!
 $ ./run.sh
 Using your self-hosted runner
